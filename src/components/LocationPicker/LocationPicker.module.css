@@ -1,0 +1,32 @@
+.formControl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row !important;
+  width: 100%;
+  margin-top: 10px !important;
+}
+
+.nativeSelect {
+  margin: 0 2% 0 1% !important;
+  width: 20%;
+}
+
+.button {
+  margin-left: 1% !important;
+}
+
+@media (max-width: 770px) {
+  .formControl {
+    flex-direction: column !important;
+  }
+
+  .nativeSelect {
+    width: 50%;
+    margin: 5px !important;
+  }
+
+  .button {
+    margin-top: 5px !important;
+  }
+}
